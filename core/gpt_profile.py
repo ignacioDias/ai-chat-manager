@@ -1,5 +1,5 @@
 import openai
-from core.ai_model_profile import AI_Model_Profile
+from .ai_model_profile import AI_Model_Profile
 
 class GPT_Profile(AI_Model_Profile):
 

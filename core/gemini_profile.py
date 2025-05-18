@@ -1,7 +1,8 @@
 import google.generativeai as genai
-from ai_model_profile import AI_Model_Profile
+from .ai_model_profile import AI_Model_Profile
 
 class Gemini_Profile(AI_Model_Profile):
+    
     def send_message(self, message):
         self.history.append({"role": "user", "content": message})
         genai.configure(api_key=self.api_key)

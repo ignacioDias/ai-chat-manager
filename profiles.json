@@ -1,6 +1,25 @@
-{
-  "gpt1": {
-    "API_KEY": "",
-    "MODEL": ""
+[
+  {
+    "name": "MiPerfil",
+    "api_key": "sk-...",
+    "model": "gpt-3.5-turbo",
+    "ai_type": "gpt",
+    "history": []
+  },
+  {
+    "name": "asd",
+    "api_key": "asdasd",
+    "model": "sdsad",
+    "ai_type": "claude",
+    "history": [
+      {
+        "role": "user",
+        "content": "hola"
+      },
+      {
+        "role": "user",
+        "content": "hola"
+      }
+    ]
   }
-}
+]
